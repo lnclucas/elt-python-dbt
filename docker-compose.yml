@@ -1,0 +1,13 @@
+version: "3"
+services:
+    postgres:
+        image: postgres
+        container_name: "db_dw"
+        environment:
+            POSTGRES_USER: ${POSTGRES_USER}
+            POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+            POSTGRES_DB: db
+        ports:
+            - "5455:5432"
+        volumes:
+            - "./db_dw:/var/lib/postgresql/data/"
