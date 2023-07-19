@@ -1,0 +1,29 @@
+[0m19:04:30.977886 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbe57bfab60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbe56706860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbe567067d0>]}
+
+
+============================== 19:04:30.980753 | 8686a496-d604-4b4f-8f50-15d9631a6363 ==============================
+[0m19:04:30.980753 [info ] [MainThread]: Running with dbt=1.5.3
+[0m19:04:30.981756 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/lucas/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m19:04:30.982513 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/lucas/.dbt')}
+[0m19:04:30.983345 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m19:04:30.985393 [debug] [MainThread]: Starter project path: /home/lucas/Documentos/projetos/bootcamp-how/desafio-fim/env/lib/python3.10/site-packages/dbt/include/starter_project
+[0m19:06:04.650886 [info ] [MainThread]: Profile dwspacex written to /home/lucas/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m19:06:04.651635 [info ] [MainThread]: 
+Your new dbt project "dwspacex" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:06:04.653184 [debug] [MainThread]: Command `dbt init` succeeded at 19:06:04.652968 after 93.68 seconds
+[0m19:06:04.653772 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbe57bfab60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbe576d47c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbe567068c0>]}
+[0m19:06:04.654326 [debug] [MainThread]: Flushing usage events
