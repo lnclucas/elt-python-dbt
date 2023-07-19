@@ -1,0 +1,13 @@
+dwspacex:
+  target: dev #target padrao
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: postgres
+      password: "{{ env_var('PASS') }}"
+      port: 5455
+      dbname: db
+      schema: silver
+      threads: 4
+      
