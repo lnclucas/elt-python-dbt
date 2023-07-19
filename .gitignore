@@ -1,3 +1,4 @@
 .env
 /db_dw
 /env
+/__pycache__
