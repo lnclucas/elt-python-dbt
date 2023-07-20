@@ -10,4 +10,13 @@ dwspacex:
       dbname: db
       schema: silver
       threads: 4
+    prod:
+      type: postgres
+      host: localhost
+      user: postgres
+      password: "{{ env_var('PASS') }}"
+      port: 5455
+      dbname: db
+      schema: gold
+      threads: 4
       
