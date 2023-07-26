@@ -1,5 +1,5 @@
 # Docker
-docker compose up -d para subir o banco
+* docker compose up -d para subir o banco
 
 # DBT
 * cd dwspacex
